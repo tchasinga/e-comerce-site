@@ -2,3 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.animate__backInLeft{
+    --animate-duration: 2s;
+    --animate-delay: 2.5s;
+    --animate-iteration-count: 4;
+}
