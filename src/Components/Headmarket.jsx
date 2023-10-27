@@ -13,14 +13,14 @@ const Headmarket = () => {
                  <h4 className='ViewMore'>View more</h4>
                 </div>
                 {/* Adding second session */}
-                <div className='bg-white w-3/12 mainFlex relative flex flex-row-reverse justify-center items-center'>
-                    <div className=''>
-                        <img src={AirpodPro} alt="AirpodPro" className='w-96 AirpodPro'/>
+                <div className='bg-white mainFlex relative mt-20 flex flex-row-reverse justify-center items-center'>
+                    <div className='AirpodProImg'>
+                        <img src={AirpodPro} alt="AirpodPro" className='AirpodPro'/>
                     </div>
-                    <div className='flex flex-col relative right-8'>
-                    <p className='text-gray-500 text-xs '>Enjoy and play with deep sound</p>
-                    <h1 className='font-semibold'>AirPods Pro</h1>
-                        <ul className='flex gap-0 text-yellow-600'>
+                    <div className='flex flex-col relative right-14'>
+                    <p className='text-gray-500 text-xs font-bold'>Enjoy and play with deep sound</p>
+                    <h1 className='font-bold'>AirPods Pro</h1>
+                        <ul className='flex gap-0 font-bold mt-1 mb-1 text-yellow-600'>
                             <li><FiStar/></li>
                             <li>
                             <FiStar/>
