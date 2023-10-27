@@ -39,7 +39,7 @@ body{
     border: 2px solid #000;
     padding: 8px 20px;
     border-radius: 55px;
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     transition: all 1.3s ease;
@@ -106,8 +106,24 @@ body{
         padding-right: 0rem;
     }
 
+    .p-20{
+        padding: 1rem;
+    }
+
     .headmarket{
         display: flex;
         flex-direction: column;
     }
+    .right-14{
+        left: -2rem;
+    }
+    .mainFlex{
+        width: 70%;
+        margin-top: -40%;
+        border-radius: 5px;
+    }
+    .getNone{
+        display: none;
+    }
+    
 }

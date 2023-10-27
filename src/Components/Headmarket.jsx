@@ -5,7 +5,7 @@ import {  FiStar } from 'react-icons/fi'
 const Headmarket = () => {
     return (
         <div className="headmarket mx-0   px-40">
-            <div className="bg-gray-100 mt-5 headmarket gap-40 flex p-20">
+            <div className="bg-gray-100 mt-5 headmarket gap-40 flex-wrap flex p-20">
                 <div className="">
                   <h1 className='text-4xl mb-3 font-semibold'>SHOP COMPUTERS <br/> & ACCESSORIES</h1>
                  <p className='myTageparagraphe'>Shop laptop desktop monitors, tablet, PC</p>
@@ -18,7 +18,7 @@ const Headmarket = () => {
                         <img src={AirpodPro} alt="AirpodPro" className='AirpodPro'/>
                     </div>
                     <div className='flex flex-col relative right-14'>
-                    <p className='text-gray-500 text-xs font-bold'>Enjoy and play with deep sound</p>
+                    <p className='text-gray-500 text-xs font-bold getNone'>Enjoy and play with deep sound</p>
                     <h1 className='font-bold'>AirPods Pro</h1>
                         <ul className='flex gap-0 font-bold mt-1 mb-1 text-yellow-600'>
                             <li><FiStar/></li>
