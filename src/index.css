@@ -1,9 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.animate__backInLeft{
-    --animate-duration: 2s;
-    --animate-delay: 2.5s;
-    --animate-iteration-count: 4;
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    color: #000;
+}
+
+.selfSearch .searchicon{
+    /* background-color: #F5F5F5; */
+    font-size: x-large;
+}
+
+
+/* Coding Mobile breakpoint of max-width : 468px*/
+
+@media only screen and (max-width: 468px) {
+
+    
+    body{
+        background-color: white;
+        color: black;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .px-40{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
 }
