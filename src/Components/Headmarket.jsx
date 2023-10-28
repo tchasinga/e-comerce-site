@@ -4,7 +4,7 @@ import {  FiStar } from 'react-icons/fi'
 
 const Headmarket = () => {
     return (
-        <div className="headmarket mx-0   px-40">
+        <div className="headmarket mx-0  px-40">
             <div className="bg-gray-100 mt-5 headmarket gap-40 flex-wrap flex p-20">
                 <div className="">
                   <h1 className='text-4xl mb-3 font-semibold'>SHOP COMPUTERS <br/> & ACCESSORIES</h1>
@@ -39,7 +39,7 @@ const Headmarket = () => {
                  </div>
                 </div>
             </div>
-        
+           <h1>BALOLEBWAMI JACQUES</h1>
         </div>
     )
 }
