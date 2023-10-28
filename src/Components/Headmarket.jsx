@@ -8,7 +8,7 @@ const Headmarket = () => {
             <div className="bg-gray-100 mt-5 headmarket gap-40 flex-wrap flex p-20">
                 <div className="">
                   <h1 className='text-4xl mb-3 font-semibold'>SHOP COMPUTERS <br/> & ACCESSORIES</h1>
-                 <p className='myTageparagraphe'>Shop laptop desktop monitors, tablet, PC</p>
+                 <p className='myTageparagraphe'>Shop laptop & desktop monitors, tablet, PC</p>
                  <p className='myTageparagraphe mb-3'>Gaming, hard driver and storage , accessories and <br/> more </p>
                  <h4 className='ViewMore'>View more</h4>
                 </div>
