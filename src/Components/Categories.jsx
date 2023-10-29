@@ -1,4 +1,6 @@
+import Marketdata from "../Projects/Objecttwo";
 import { CgArrowLongRightR } from "react-icons/cg";
+import Maindata from "./Maindata";
 import 'animate.css'
 
 const Categories = () =>{
@@ -19,6 +21,14 @@ const Categories = () =>{
                     </ul>
              </div>
           </div>
+        <div>
+            {
+                Marketdata.Market.map((market) => (
+                    <Maindata key={market.id} market={market} />
+                ))
+            }
+        </div>
+
         </div>
     )
 }
