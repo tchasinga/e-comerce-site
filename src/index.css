@@ -91,9 +91,25 @@ body{
 /* designign my first order */
 
 .myflexcontainer{
-    background-color: #FAF3EE;
+    background-color: #fff1e7;
     width: 100%;
+   cursor: pointer;
+   transition: all 1.3s ease;   
+}
 
+.myflexcontainer:hover{
+    background-color: #f00;
+    color: #fff;
+}
+
+.myflexcontainer:nth-child(1){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.myflexcontainer:nth-child(4){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .text-xs{
@@ -101,6 +117,15 @@ body{
     font-weight: 500;
     color: #000;
 }
+
+/* adding some animation using anime.style*/
+
+/* .animate__bounceIn {
+    --animate-duration: 7.5s;
+    animation-duration: 9.5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite; 
+} */
 
 
 /* Coding Mobile breakpoint of max-width : 468px*/
@@ -142,6 +167,16 @@ body{
     .hugeFlexcontainer{
       display: flex;
         flex-direction: column;
+    }
+
+    .myflexcontainer:nth-child(1){
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .myflexcontainer:nth-child(4){
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
     
 }
