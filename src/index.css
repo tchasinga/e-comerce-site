@@ -121,12 +121,12 @@ body{
 
 /* adding some animation using anime.style*/
 
-/* .animate__bounceIn {
+.animate__bounceIn {
     --animate-duration: 7.5s;
     animation-duration: 9.5s;
     animation-delay: 3s;
     animation-iteration-count: infinite; 
-} */
+}
 
 .animate__fadeInLeft{
     --animate-duration: 2.5s;
@@ -135,13 +135,62 @@ body{
     animation-iteration-count: infinite; 
 }
 
-.getGrid{
-    display: grid;
-    grid-template-columns: repeat(4, 3fr);
-    grid-gap: 1rem;
-    margin-top: 2rem;
-    border: #000 solid;
+/* design data section */
+
+.designcode{
+    width: 100% !important;
+    height: 100% !important;
 }
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('./Img/AmbraSkin.png');
+    background-position: 270% 100%;
+    background-repeat: no-repeat;
+    background-size: 80% 120%;
+    margin-top: 2%;
+    align-items: center;
+    padding: 2%;
+    width: 500px;
+    height: 400px;
+ }
+
+ .flexContainer:nth-child(2){
+    background-image: url('./Img/HonorMagicBook.png');
+    background-position: 200% 20%;
+    background-repeat: no-repeat;
+    background-size: 80% 120%;
+    margin-top: 2%;
+    align-items: center;
+    padding: 2%;
+    width: 500px;
+    height: 400px;
+ }
+
+    .flexContainer:nth-child(3){
+        background-image: url('./Img/productthumbnail.png');
+        background-position: 200% 140%;
+        background-repeat: no-repeat;
+        background-size: 75% 110%;
+        margin-top: 2%;
+        align-items: center;
+        padding: 2%;
+        width: 500px;
+        height: 400px;
+    }
+
+    .flexContainer:nth-child(4){
+        background-image: url('./Img/pngegg.png');
+        background-position: 200% 140%;
+        background-repeat: no-repeat;
+        background-size: 75% 110%;
+        margin-top: 2%;
+        align-items: center;
+        padding: 2%;
+        width: 500px;
+        height: 400px;
+    }
 
 /* Coding Mobile breakpoint of max-width : 468px*/
 
@@ -192,6 +241,19 @@ body{
     .myflexcontainer:nth-child(4){
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
+    }
+
+    .designcode{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexContainer,
+    .flexContainer:nth-child(2),
+    .flexContainer:nth-child(3),
+    .flexContainer:nth-child(4)
+    {
+        width: 100%;
     }
     
 }

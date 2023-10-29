@@ -3,6 +3,7 @@ import AirpodPro from '../Img/AppleAirPods.png'
 import {  FiStar } from 'react-icons/fi'
 import Orderproducts from './Orderproducts'
 import Categories from './Categories'
+import Getproduct from './Getproduct'
 
 
 
@@ -46,6 +47,7 @@ const Headmarket = () => {
           <div>
           <Orderproducts/>
           <Categories  />
+          <Getproduct/>
           </div>
         </div>
     )
