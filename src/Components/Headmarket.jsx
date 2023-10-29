@@ -1,6 +1,7 @@
 import '../index.css'
 import AirpodPro from '../Img/AppleAirPods.png'
 import {  FiStar } from 'react-icons/fi'
+import Orderproducts from './Orderproducts'
 
 const Headmarket = () => {
     return (
@@ -39,7 +40,9 @@ const Headmarket = () => {
                  </div>
                 </div>
             </div>
-           <h1>BALOLEBWAMI JACQUES</h1>
+          <div>
+          <Orderproducts/>
+          </div>
         </div>
     )
 }
