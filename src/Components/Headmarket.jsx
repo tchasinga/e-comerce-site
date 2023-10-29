@@ -2,7 +2,9 @@ import '../index.css'
 import AirpodPro from '../Img/AppleAirPods.png'
 import {  FiStar } from 'react-icons/fi'
 import Orderproducts from './Orderproducts'
-import Shopbycategories from './Shopbycategories'
+import Categories from './Categories'
+
+
 
 const Headmarket = () => {
     return (
@@ -43,7 +45,7 @@ const Headmarket = () => {
             </div>
           <div>
           <Orderproducts/>
-          <Shopbycategories/>
+          <Categories  />
           </div>
         </div>
     )
