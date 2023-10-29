@@ -20,7 +20,7 @@ const Header = () =>{
                          <ul className="flex gap-4 items-center hover:cursor-pointer">
                             <li className="selfSearch flex items-center gap-3">
                                  <BiSearchAlt className="searchicon"/>
-                                 <p className="font-light text-sm">Search</p>
+                                 <p className="font-light text-sm">Searching</p>
                             </li>
                             <li>
                                 <FiUser/>
