@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './Components/Header';
 import Headmarket from './Components/Headmarket';
-import MyComponent from './Components/Helmetsite';
+import MyComponent from './Components/Mycomponents';
 import './index.css'
 import 'animate.css';
 
