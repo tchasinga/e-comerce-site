@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Components/Header';
 import Headmarket from './Components/Headmarket';
+import MyComponent from './Components/Helmetsite';
 import './index.css'
 import 'animate.css';
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Header />
     <Headmarket />
+    <MyComponent />
     </>
   )
 }
