@@ -291,5 +291,13 @@ body{
         flex-direction: column;
         width: 100%;
     }
+
+    .amazondate{
+        background-position: 120% 45%;
+    }
+
+    .amazondate:hover{
+        background-position: 100% 45%;
+    }
     
 }
