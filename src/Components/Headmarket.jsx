@@ -4,6 +4,7 @@ import {  FiStar } from 'react-icons/fi'
 import Orderproducts from './Orderproducts'
 import Categories from './Categories'
 import Getproduct from './Getproduct'
+import Amazonbasis from './Amazonbasis'
 
 
 
@@ -48,6 +49,7 @@ const Headmarket = () => {
           <Orderproducts/>
           <Categories  />
           <Getproduct/>
+          <Amazonbasis/>
           </div>
         </div>
     )

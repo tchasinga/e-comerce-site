@@ -192,6 +192,36 @@ body{
         height: 400px;
     }
 
+    .amazondate{
+        background-color: #fff1e7;
+        padding: 1rem;
+        width: 100%;
+        background-image: url('./Img/BestWirelessAdapter.png');
+        background-position: 117% 10%;
+        background-repeat: no-repeat;
+        background-size: 30%;
+        transition: all 3.5s ease;
+    }
+    
+    .amazondate:hover{
+        background-position: 100% 10%;
+        cursor: pointer;
+    }
+     
+    .amazondate:nth-child(2){
+        background-image: url('./Img/TheseToPassUpWatch.png');
+        background-position: 110% 10%;
+        background-repeat: no-repeat;
+        background-size: 20%;
+        transition: all 3.5s ease;
+    }
+
+    .amazondate:nth-child(2):hover{
+        background-position: 100% 10%;
+        cursor: pointer;
+    }
+
+
 /* Coding Mobile breakpoint of max-width : 468px*/
 
 @media only screen and (max-width: 468px) {
@@ -253,6 +283,12 @@ body{
     .flexContainer:nth-child(3),
     .flexContainer:nth-child(4)
     {
+        width: 100%;
+    }
+
+    .amazoncontainer{
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
     
