@@ -10,6 +10,7 @@ function MyComponent() {
         <meta property="og:url" content="https://stuff-seller.netlify.app/" />
         <meta property="og:type" content="website" />
       </Helmet>
+      <h1>Hello there</h1>
     </div>
   );
 }
