@@ -23,7 +23,7 @@
         {/* second session */}
 
         <div className="amazondate flex flex-col">
-               <h1 className="text-base font-semibold">Amazing store</h1>
+               <h1 className="text-base font-semibold">Deals & Promotion</h1>
                <p className="text-xs">Welcom shop today and make revervation</p>
                <p className="text-xs">To discuse about a price later</p>
                <div>
