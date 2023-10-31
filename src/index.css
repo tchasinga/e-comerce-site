@@ -198,7 +198,7 @@ body {
   background-position: 117% 10%;
   background-repeat: no-repeat;
   background-size: 30%;
-  transition: all 3.5s ease-in;
+  transition: all 2s ease-in;
   
 }
 
@@ -212,7 +212,7 @@ body {
   background-position: 110% 10%;
   background-repeat: no-repeat;
   background-size: 20%;
-  transition: all 3.5s ease;
+  transition: all 2s ease;
 }
 
 .amazondate:nth-child(2):hover {
@@ -340,8 +340,48 @@ body {
   .amazondate:hover {
     background-position: 100% 45%;
   }
+   
+  .pl-11{
+    padding: 1rem;
+  }
 
+  /* .myfont{
+    font-size: 1rem;
+  }
+
+  .getFont{
+    font-size: 0.7rem;
+  } */
   /* .newproductgrid{
     width: 100%;
   } */
+  .getwidth{
+    display: none;
+  }
+
+  .newchecking{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  .newViewMoree{
+    width: 70%;
+  }
+
+  .bgGet{
+    background-image: url("./Img/ReasonsWhyWomenLeaveToxicRelationships.png");
+    background-position: 200% 10%;
+    background-repeat: no-repeat;
+    background-size: 75% 110%;
+    margin-top: 2%;
+    align-items: center;
+    padding: 2%;
+    transition: all 2s ease;
+  }
+
+  .bgGet:hover{
+    background-position: 100% 10%;
+  }
+
 }
