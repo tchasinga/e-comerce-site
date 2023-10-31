@@ -198,7 +198,8 @@ body {
   background-position: 117% 10%;
   background-repeat: no-repeat;
   background-size: 30%;
-  transition: all 3.5s ease;
+  transition: all 3.5s ease-in;
+  
 }
 
 .amazondate:hover {
@@ -241,7 +242,14 @@ body {
 .newproductgrid img {
   width: 70%;
   height: 100%;
+  transition: all 2.3s ease;
 }
+
+.newproductgrid img:hover {
+  transform: scale(2.5);
+  cursor: pointer;
+}
+
 
 .newproductgriditemimg{
   width: 80%;
