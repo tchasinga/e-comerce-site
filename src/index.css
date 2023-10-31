@@ -235,8 +235,8 @@ body {
 .newproductgrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-gap :10px;
-  padding: 1rem;
+  grid-gap :5px;
+  width: 100%;
 }
 
 .newproductgrid img {
@@ -339,5 +339,9 @@ body {
 
   .amazondate:hover {
     background-position: 100% 45%;
+  }
+
+  .newproductgrid{
+    width: 100%;
   }
 }
