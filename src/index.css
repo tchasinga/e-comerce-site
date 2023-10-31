@@ -235,9 +235,25 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap :10px;
-  margin-bottom: 10px;
+  padding: 1rem;
 }
 
+.newproductgrid img {
+  width: 70%;
+  height: 100%;
+}
+
+.newproductgriditemimg{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newproductgriditemviewer h1{
+  color: gray;
+}
 
 /* Coding Mobile breakpoint of max-width : 468px*/
 

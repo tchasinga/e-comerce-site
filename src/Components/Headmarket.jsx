@@ -7,6 +7,7 @@ import Getproduct from './Getproduct'
 import Amazonbasis from './Amazonbasis'
 import Darkskins from './Darkskins'
 import Newproduct from './Newproduct'
+import Getright from './Getright'
 
 
 
@@ -53,6 +54,7 @@ const Headmarket = () => {
           <Getproduct/>
           <Amazonbasis/>
           <Darkskins />
+         <Getright/>
           <Newproduct/>
           </div>
         </div>
