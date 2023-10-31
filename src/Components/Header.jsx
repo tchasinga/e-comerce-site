@@ -9,23 +9,23 @@ const Header = () =>{
                   <div className="firstnav">
                       <ul className="flex gap-3 items-center hover:cursor-pointer">
                           <li className="font-bold text-xl">E-comerce</li>
-                          <li className="font-light text-sm">All</li>
-                          <li className="font-light text-sm">Today&apos;s Deals</li>
-                          <li className="font-light text-sm">Gift Card</li>
-                          <li className="font-light text-sm">Resgitry & Gifting</li>
+                          <li className="font-light text-sm getNone">All</li>
+                          <li className="font-light text-sm getNone">Today&apos;s Deals</li>
+                          <li className="font-light text-sm getNone">Gift Card</li>
+                          <li className="font-light text-sm getNone">Resgitry & Gifting</li>
                       </ul>
                   </div>
 
                     <div className="secondnav">
                          <ul className="flex gap-4 items-center hover:cursor-pointer">
-                            <li className="selfSearch flex items-center gap-3">
+                            <li className="selfSearch flex items-center getNone gap-3">
                                  <BiSearchAlt className="searchicon"/>
                                  <p className="font-light text-sm">Searching</p>
                             </li>
-                            <li>
+                            <li className="getNone">
                                 <FiUser/>
                             </li>
-                            <li>
+                            <li className="getNone">
                                  <FiHeart/>
                             </li>
                             <li>
