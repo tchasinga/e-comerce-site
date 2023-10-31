@@ -28,6 +28,7 @@ const Newproduct = () => {
     return (
         <div className="newproduct mt-7 mb-7">
             <div className="">
+            <p className='text-sm mb-4 font-semibold'>Available shoes is {products.length}</p>
                 <div className='newproductgrid'>
                     {products.map((jordan) => {
                         return (
@@ -48,7 +49,6 @@ const Newproduct = () => {
                                 <div className="newproductgriditemprice">
                                     <h1 className='font-semibold'>{jordan.price}</h1>
                                 </div>
-                              
                                </div>
                             </div>
                         );
