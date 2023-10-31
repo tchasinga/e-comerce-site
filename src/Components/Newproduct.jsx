@@ -26,7 +26,7 @@ const Newproduct = () => {
     }, [products]);
 
     return (
-        <div className="newproduct mt-7">
+        <div className="newproduct mt-7 mb-7">
             <div className="">
                 <div className='newproductgrid'>
                     {products.map((jordan) => {

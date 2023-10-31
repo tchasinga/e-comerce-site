@@ -236,7 +236,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap :5px;
-  width: 100%;
+
 }
 
 .newproductgrid img {
@@ -341,7 +341,7 @@ body {
     background-position: 100% 45%;
   }
 
-  .newproductgrid{
+  /* .newproductgrid{
     width: 100%;
-  }
+  } */
 }

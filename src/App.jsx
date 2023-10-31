@@ -6,11 +6,14 @@ import './index.css'
 import 'animate.css';
 
 function App() {
+
+
   return (
     <>
     <Header />
     <Headmarket />
     <MyComponent />
+
     </>
   )
 }
