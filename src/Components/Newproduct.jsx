@@ -11,8 +11,8 @@ const Newproduct = () => {
                         Jordans.map((jordan) => {
                             return (
                                 <div className="newproductgriditem p-1 flex flex-col mb-7  justify-center bg-gray-100 " key={jordan.id}>
-                                    <div className=''>
-                                        <h1 className='bg-red-500 w-20 m-1 text-xs font-semibold pl-1 mt-3'>{jordan.time}</h1>
+                                    <div className='text-white codecolor'>
+                                        <h1 className='bg-red-500 w-20 m-1 rounded-sm   text-xs font-semibold pl-1 mt-3'>{jordan.time}</h1>
                                     </div>                                    
                                     <div className="newproductgriditemimg">
                                         <img src={jordan.myImage} alt="newgridImg" />
