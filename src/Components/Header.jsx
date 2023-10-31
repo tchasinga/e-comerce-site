@@ -23,13 +23,13 @@ const Header = () =>{
                                  <p className="font-light text-sm">Searching</p>
                             </li>
                             <li className="getNone">
-                                <FiUser/>
+                                <FiUser className="searchicon"/>
                             </li>
                             <li className="getNone">
-                                 <FiHeart/>
+                                 <FiHeart className="searchicon"/>
                             </li>
                             <li>
-                                <FiShoppingCart/>
+                                <FiShoppingCart className="searchicon"/>
                             </li>
                          </ul>
                     </div>

@@ -1,4 +1,4 @@
-import Darkski from '../Img/Afrikanpost.png'
+import Darkski from '../Img/BIGKUENNY.png'
 
 const Darkskins = () => {
     return (
