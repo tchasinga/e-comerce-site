@@ -42,8 +42,7 @@ const Jordans = [
         name : 'Air-force white High OG',
         price : '$990',
         viewer : '5.5k this year',
-    }
-
+    },
 ]
 
 export default Jordans;
