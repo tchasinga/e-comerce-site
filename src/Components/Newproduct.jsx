@@ -2,6 +2,7 @@ import  { useState, useEffect } from 'react';
 import '../index.css';
 import Jordans from '../Projects/Objecthree.jsx';
 
+
 const Newproduct = () => {
     const [products, setProducts] = useState(Jordans);
 
@@ -28,13 +29,13 @@ const Newproduct = () => {
     return (
         <div className="newproduct mt-7 mb-7">
             <div className="">
-            <p className='text-sm mb-4 font-semibold'>Available shoes is {products.length}</p>
+              <p className='text-sm mb-4 cursor-pointer font-semibold'>Available shoes is {products.length}</p>
                 <div className='newproductgrid'>
                     {products.map((jordan) => {
                         return (
                             <div className="newproductgriditem p-1 flex flex-col mb-1  justify-center bg-gray-100 " key={jordan.id}>
                                 <div className='text-white codecolor'>
-                                    <h1 className='bg-red-500 w-20 m-1 rounded-sm   text-xs font-semibold pl-1 mt-3'>{jordan.time}</h1>
+                                   <h1 className='bg-red-500 w-20 m-1 rounded-sm   text-xs font-semibold pl-1 mt-3'>{jordan.time}</h1>
                                 </div>                                    
                                 <div className="newproductgriditemimg">
                                     <img src={jordan.myImage} alt="newgridImg" />

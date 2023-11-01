@@ -16,7 +16,7 @@ const Jordans = [
         id : 2,
         myImage : Jordan02,
         name : 'Jordan 5 Retro High OG',
-        price : '$390',
+        price : '$490',
         viewer : '3.5k this year',
     },
     {
