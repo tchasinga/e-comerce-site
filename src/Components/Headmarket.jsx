@@ -26,7 +26,7 @@ const Headmarket = () => {
                     <div className='AirpodProImg'>
                         <img src={AirpodPro} alt="AirpodPro" className='AirpodPro'/>
                     </div>
-                    <div className='flex flex-col relative right-14'>
+                    <div className='flex flex-col relative pr-16'>
                     <p className='text-gray-500 text-xs font-bold getNone'>Enjoy and play with deep sound</p>
                     <h1 className='font-bold'>AirPods Pro</h1>
                         <ul className='flex gap-0 font-bold mt-1 mb-1 text-yellow-600'>
