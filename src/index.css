@@ -257,6 +257,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 1rem;
 }
 
 .newproductgriditemviewer h1{

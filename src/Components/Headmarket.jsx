@@ -8,13 +8,15 @@ import Amazonbasis from './Amazonbasis'
 import Darkskins from './Darkskins'
 import Newproduct from './Newproduct'
 import Getright from './Getright'
+import Secondproduct from './Secondproduct'
+import Roomseller from './Roomseller'
 
 
 
 const Headmarket = () => {
     return (
         <div className="headmarket mx-0  px-40">
-            <div className="bg-gray-100 mt-5 headmarket gap-40 flex-wrap flex p-20">
+            <div className="bg-gray-100 mt-5 headmarket gap-48 flex-wrap flex p-20">
                 <div className="">
                   <h1 className='text-4xl mb-3 font-semibold'>SHOP COMPUTERS <br/> & ACCESSORIES</h1>
                  <p className='myTageparagraphe'>Shop laptop & desktop monitors, tablet, PC</p>
@@ -56,6 +58,8 @@ const Headmarket = () => {
           <Darkskins />
          <Getright/>
           <Newproduct/>
+          <Secondproduct/>
+          <Roomseller/>
           </div>
         </div>
     )
