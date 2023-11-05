@@ -3,6 +3,7 @@ import Hearbrain from '../Img/CrystalHead.png'
 import Homekichen from '../Img/PanelaHomekichen.png'
 import SmartSacs from '../Img/UrbanVenturerTransitBackpack.png'
 import LenovoThinkpad from '../Img/YouCanBuyToday.png'
+import WatchTime from '../Img/TheseToPassUpWatch.png'
 
 const Second =[
     {
@@ -44,6 +45,14 @@ const Second =[
         name : 'Lenovo Thinkpad',
         price : '$990',
         viewer : '5.5k sold this year',
+    },
+    {
+        id : 6,
+        time : 'Ended-soon',
+        myImage : WatchTime,
+        name : 'Aple watch',
+        price : '$290',
+        viewer : '1.5k sold this year',
     }
 ]
 

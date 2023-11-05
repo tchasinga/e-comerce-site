@@ -26,7 +26,7 @@ const Roomseller = () => {
     return (
         <div className="newproduct mt-7 mb-7">
             <div className="">
-                <p className='text-sm mb-4 cursor-pointer font-semibold'>Available shoes is {products.length}</p>
+                <p className='text-sm mb-4 cursor-pointer font-semibold'>Available product is {products.length}</p>
                 <div className='newproductgrid'>
                     {products.map((newdata) => {
                         return (

@@ -12,6 +12,11 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+  animation-delay: all 6s ease;
+}
+
 body {
   background-color: white;
   color: #000;
@@ -267,6 +272,44 @@ body {
 .codecolor h1{
   color: white;
 }
+
+/* Coding comfy section */
+
+.goodImg{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./Img/DIYcapillaireshydratants.png");
+  background-position: 105% 0%;
+  background-repeat: no-repeat;
+  background-size: 50% 125%;
+  align-items: center;
+  padding: 2%;
+  height: 140%;
+}
+
+.goodImg2{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./Img/HaireStyles.png");
+  background-position: 105% 0%;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  align-items: center;
+  padding: 2%;
+  height: 140%;
+}
+
+.getmygridTwo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap :10px;
+}
+
+.bg-gray-700{
+  background-color: #f2dbdb;
+}
+
+
 /* Coding Mobile breakpoint of max-width : 468px*/
 
 @media only screen and (max-width: 468px) {
@@ -383,6 +426,10 @@ body {
 
   .bgGet:hover{
     background-position: 100% 10%;
+  }
+
+  .getmygridTwo{
+    gap: 22%;
   }
 
 }
