@@ -1,6 +1,6 @@
 const Getproduct = () => {
   return (
-    <div className=" mt-7 mb-7 flex designcode gap-4">
+    <div className=" mt-7 mb-7 designcode gap-4 flex">
       <div className="flexContainer bg-gray-100">
         <div className="ImgGetairpod"></div>
         <div>
