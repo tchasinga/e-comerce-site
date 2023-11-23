@@ -5,7 +5,7 @@ import Chemise from '../Img/NewSprinChemise.png'
 
 const Comfty = () => {
   return (
-    <div className="generaldetails">
+    <div className="generaldetails mb-28">
       <div className="getmygridTwo">
         <div className="bg-gray-100 goodImg">
           <div className="flex flex-col px-3">
