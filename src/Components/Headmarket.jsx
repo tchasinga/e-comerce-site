@@ -57,7 +57,7 @@ const Headmarket = () => {
           <Getproduct/>
           <Amazonbasis/>
           <Darkskins />
-         <Getright/>
+          <Getright/>
           <Newproduct/>
           <Secondproduct/>
           <Roomseller/>
