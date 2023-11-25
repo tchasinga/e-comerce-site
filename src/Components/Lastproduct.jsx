@@ -2,7 +2,7 @@ import newlastproduct from '../Projects/Objectfive'
 
 const  Lastproduct = () =>{
     return(
-        <div className="newproduct mt-7 mb-7">
+        <div className="newproduct mt-7">
         <div className="">
           <p className='text-sm mb-4 cursor-pointer font-semibold'>Available shoes is {newlastproduct.length}</p>
             <div className='newproductgrid'>

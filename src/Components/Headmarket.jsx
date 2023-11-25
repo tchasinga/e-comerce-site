@@ -12,6 +12,7 @@ import Secondproduct from './Secondproduct'
 import Roomseller from './Roomseller'
 import Comfty from './Comfty'
 import Lastproduct from './Lastproduct'
+import Productmore from './Productmore'
 
 
 
@@ -64,6 +65,7 @@ const Headmarket = () => {
           <Roomseller/>
           <Comfty/>
           <Lastproduct/>
+          <Productmore/>
           </div>
         </div>
     )
