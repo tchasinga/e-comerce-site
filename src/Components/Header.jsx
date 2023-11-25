@@ -8,7 +8,7 @@ const Header = () => {
             <div className="header flex mt-4 mb-4 mx-0 px-40 flex-wrap items-center justify-between">
                 <div className="firstnav">
                     <ul className="flex gap-3 items-center hover:cursor-pointer">
-                        <li className="font-bold text-xl">E-commerce</li>
+                        <li className="font-bold text-xl font-jost font-sans">Shop-store</li>
                         <li className="font-light text-sm getNone">All</li>
                         <li className="font-light text-sm getNone">Today&apos;s Deals</li>
                         <li className="font-light text-sm getNone">Gift Card</li>
