@@ -3,7 +3,7 @@ import '../index.css'
 
 const Productmore = () =>{
     return(
-        <div className="flex hugeFlexcontainer mb-4">
+        <div className="flex hugeFlexcontainer mb-28">
             {
                 Order.map((val, index) => {
                     return(

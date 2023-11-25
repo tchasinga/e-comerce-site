@@ -4,8 +4,8 @@ import {FiUser ,FiHeart, FiShoppingCart } from 'react-icons/fi';
 const Header = () =>{
    
      return(
-         <>
-             <div className="header flex mt-4 mx-0 px-40 flex-wrap items-center justify-between">
+         <div className="">
+             <div className="header flex mt-4 mx-0 px-40 flex-wrap  items-center justify-between">
                   <div className="firstnav">
                       <ul className="flex gap-3 items-center hover:cursor-pointer">
                           <li className="font-bold text-xl">E-comerce</li>
@@ -34,7 +34,7 @@ const Header = () =>{
                          </ul>
                     </div>
                 </div>
-         </>
+         </div>
      )
 
 }

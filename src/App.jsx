@@ -1,7 +1,8 @@
 import './App.css'
 import Header from './Components/Header';
 import Headmarket from './Components/Headmarket';
-import MyComponent from './Components/Mycomponents';
+import Menufooted from './Components/Menufooted';
+
 import './index.css'
 import 'animate.css';
 
@@ -12,7 +13,7 @@ function App() {
     <>
     <Header />
     <Headmarket />
-    <MyComponent />
+    <Menufooted />
 
     </>
   )

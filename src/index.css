@@ -22,7 +22,7 @@ body {
   color: #000;
 }
 
- .searchicon {
+.searchicon {
   /* background-color: #F5F5F5; */
   font-size: x-large;
 }
@@ -59,6 +59,10 @@ body {
   background-color: #000;
   color: #fff;
   cursor: pointer;
+}
+
+.footContainer {
+  display: none;
 }
 
 .AirpodPro {
@@ -123,7 +127,6 @@ body {
 }
 
 /* new adjustment of code */
-
 
 /* adding some animation using anime.style*/
 
@@ -207,7 +210,6 @@ body {
   background-repeat: no-repeat;
   background-size: 30%;
   transition: all 2s ease-in;
-  
 }
 
 .amazondate:hover {
@@ -243,8 +245,7 @@ body {
 .newproductgrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-gap :5px;
-
+  grid-gap: 5px;
 }
 
 .newproductgrid img {
@@ -258,8 +259,7 @@ body {
   cursor: pointer;
 }
 
-
-.newproductgriditemimg{
+.newproductgriditemimg {
   width: 80%;
   height: 100%;
   display: flex;
@@ -268,17 +268,17 @@ body {
   margin-left: 1rem;
 }
 
-.newproductgriditemviewer h1{
+.newproductgriditemviewer h1 {
   color: gray;
 }
 
-.codecolor h1{
+.codecolor h1 {
   color: white;
 }
 
 /* Coding comfy section */
 
-.goodImg{
+.goodImg {
   display: flex;
   flex-wrap: wrap;
   background-image: url("./Img/DIYcapillaireshydratants.png");
@@ -290,7 +290,7 @@ body {
   height: 140%;
 }
 
-.goodImg2{
+.goodImg2 {
   display: flex;
   flex-wrap: wrap;
   background-image: url("./Img/HaireStyles.png");
@@ -302,16 +302,15 @@ body {
   height: 140%;
 }
 
-.getmygridTwo{
+.getmygridTwo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap :10px;
+  gap: 10px;
 }
 
-.bg-gray-700{
+.bg-gray-700 {
   background-color: #f2dbdb;
 }
-
 
 /* Coding Mobile breakpoint of max-width : 468px*/
 
@@ -387,8 +386,8 @@ body {
   .amazondate:hover {
     background-position: 100% 45%;
   }
-   
-  .pl-11{
+
+  .pl-11 {
     padding: 1rem;
   }
 
@@ -402,21 +401,21 @@ body {
   /* .newproductgrid{
     width: 100%;
   } */
-  .getwidth{
+  .getwidth {
     display: none;
   }
 
-  .newchecking{
+  .newchecking {
     display: flex;
     flex-direction: column;
     width: 70%;
   }
-  
-  .newViewMoree{
+
+  .newViewMoree {
     width: 70%;
   }
 
-  .bgGet{
+  .bgGet {
     background-image: url("./Img/ReasonsWhyWomenLeaveToxicRelationships.png");
     background-position: 200% 10%;
     background-repeat: no-repeat;
@@ -427,16 +426,31 @@ body {
     transition: all 2s ease;
   }
 
-  .bgGet:hover{
+  .bgGet:hover {
     background-position: 100% 10%;
   }
 
-  .getmygridTwo{
+  .getmygridTwo {
     gap: 22%;
   }
 
-.generaldetails{
-  margin-bottom: 14rem;
-}
-
+  .generaldetails {
+    margin-bottom: 14rem;
+  }
+  .footContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0rem;
+    width: 100%;
+  }
+  .bg-gray-300 {
+    background-color: #f2dbdb80;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
 }
