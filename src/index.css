@@ -349,6 +349,7 @@ body {
   .hugeFlexcontainer {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30%;
   }
 
   .myflexcontainer:nth-child(1) {
