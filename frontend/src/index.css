@@ -114,8 +114,9 @@ body {
 }
 
 .myflexcontainer:hover {
-  background-color: #f00;
+  background-color: rgba(143, 26, 26, 0.942);
   color: #fff;
+  cursor: pointer;
 }
 
 .myflexcontainer:nth-child(1) {
