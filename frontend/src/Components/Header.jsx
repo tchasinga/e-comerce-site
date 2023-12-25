@@ -2,6 +2,7 @@ import "../index.css";
 import { BiSearchAlt } from "react-icons/bi";
 import { FiUser, FiHeart, FiShoppingCart } from 'react-icons/fi';
 
+
 const Header = () => {
     return (
         <div className="fixed top-0 left-0  right-0 bg-black z-10 zone">
@@ -22,7 +23,8 @@ const Header = () => {
                             <BiSearchAlt className="searchicon" />
                             <p className="font-light text-sm">Searching</p>
                         </li>
-                        <li className="getNone">
+
+                       <li className="getNone">
                             <FiUser className="searchicon" />
                         </li>
                         <li className="getNone">
