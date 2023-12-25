@@ -155,10 +155,6 @@ body {
 
 /* design data section */
 
-.designcode {
-  width: 100% !important;
-  height: 100% !important;
-}
 
 
 
@@ -324,10 +320,7 @@ body {
     border-bottom-right-radius: 0px;
   }
 
-  .designcode {
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .flexContainer,
   .flexContainer:nth-child(2),
