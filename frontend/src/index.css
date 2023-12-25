@@ -135,11 +135,7 @@ body {
   color: #000;
 }
 
-/* new adjustment of code */
 
-
-
-/* adding some animation using anime.style*/
 
 .animate__bounceIn {
   --animate-duration: 7.5s;
