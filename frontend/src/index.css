@@ -160,55 +160,8 @@ body {
   height: 100% !important;
 }
 
-.flexContainer {
-  display: flex;
-  flex-wrap: wrap;
-  background-image: url("./Img/AmbraSkin.png");
-  background-position: 270% 100%;
-  background-repeat: no-repeat;
-  background-size: 80% 120%;
-  margin-top: 2%;
-  align-items: center;
-  padding: 2%;
-  width: 500px;
-  height: 400px;
-}
 
-.flexContainer:nth-child(2) {
-  background-image: url("./Img/HonorMagicBook.png");
-  background-position: 200% 20%;
-  background-repeat: no-repeat;
-  background-size: 80% 120%;
-  margin-top: 2%;
-  align-items: center;
-  padding: 2%;
-  width: 500px;
-  height: 400px;
-}
 
-.flexContainer:nth-child(3) {
-  background-image: url("./Img/productthumbnail.png");
-  background-position: 200% 140%;
-  background-repeat: no-repeat;
-  background-size: 75% 110%;
-  margin-top: 2%;
-  align-items: center;
-  padding: 2%;
-  width: 500px;
-  height: 400px;
-}
-
-.flexContainer:nth-child(4) {
-  background-image: url("./Img/pngegg.png");
-  background-position: 200% 140%;
-  background-repeat: no-repeat;
-  background-size: 75% 110%;
-  margin-top: 2%;
-  align-items: center;
-  padding: 2%;
-  width: 500px;
-  height: 400px;
-}
 
 .amazondate {
   background-color: #fff1e7;
