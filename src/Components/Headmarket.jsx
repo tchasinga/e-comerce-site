@@ -19,7 +19,7 @@ import Productmore from './Productmore'
 
 const Headmarket = () => {
     return (
-        <div className="headmarket mx-auto max-w-screen-xl">
+        <div className="headmarket mx-auto max-w-screen-xl px-4">
             <div className="bg-gray-100 mt-20 headmarket gap-48 flex-wrap flex p-20">
                 <div className="">
                   <h1 className='text-4xl mb-3 font-semibold'>SHOP COMPUTERS <br/> & ACCESSORIES</h1>
