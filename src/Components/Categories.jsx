@@ -17,7 +17,6 @@ const Categories = () => {
           </ul>
         </div>
       </div>
-         {/* Addign new line-code */}
     </div>
   );
 };
